@@ -4,7 +4,15 @@ h1 {
     font-size: 300%;
   }
   p {
-    color: red;
+    color: rgb(17, 7, 7);
     font-family: courier;
     font-size: 160%;
   }
+
+  .column {
+    width: 250px;
+    float: left;
+    margin: 10px;
+    border: 3px rgb(24, 1, 1) solid;
+    padding: 16px;
+}
