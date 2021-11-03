@@ -1,10 +1,10 @@
 h1 {
-    color: blue;
+    color: black;
     font-family: Cambria;
     font-size: 300%;
   }
   h2 {
-    color: blue;
+    color: black;
     font-family: Cambria;
     font-size: 100%;
   }
@@ -12,6 +12,9 @@ h1 {
     color: rgb(17, 7, 7);
     font-family: Cambria;
     font-size: 100%;
+  }
+  .img {
+    object-fit: cover;
   }
 
   .column {
@@ -21,14 +24,12 @@ h1 {
     padding: 16px;
 }
 
-.centre {
-    width: 50%;
-    float: middle;
-    margin: 10px;
-    padding: 16px;
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 body {
-  background-image: url("gradient_bg.png");
-  background-repeat: repeat-x;
+  background-image: linear-gradient(rgb(233, 186, 233), white);;
 }
